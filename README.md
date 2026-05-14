@@ -13,9 +13,9 @@ The definition of this GitHub Action is in [action.yml](https://github.com/step-
 
 ## Dependencies on other GitHub Actions
 
-Login to Azure before running Azure PowerShell scripts using [Azure Login](https://github.com/Azure/login). Refer [Azure Login](https://github.com/Azure/login#configure-azure-credentials) action on how to configure Azure credentials.
+Login to Azure before running Azure PowerShell scripts using [Azure Login](https://github.com/step-security/azure-login). Refer [Azure Login](https://github.com/step-security/azure-login#configure-azure-credentials) action on how to configure Azure credentials.
 
-Both [Azure Login](https://github.com/Azure/login) and [Azure PowerShell](https://github.com/step-security/powershell) action uses `Az` module.
+Both [Azure Login](https://github.com/step-security/azure-login) and [Azure PowerShell](https://github.com/step-security/powershell) action uses `Az` module.
 
 Once login is done, Azure PowerShell action will use the same session to run the script.
 
@@ -50,7 +50,7 @@ jobs:
 
 Azure PowerShell Script to be executed can be given under inlineScript as shown in the sample workflow.
 
-Azure PowerShell action is now supported for the Azure public cloud as well as Azure government clouds (`AzureUSGovernment` or `AzureChinaCloud`) and Azure Stack (`AzureStack`) Hub. Before running Azure PowerShell scripts, login to the respective Azure Cloud  using [Azure Login action](https://github.com/Azure/login) by setting appropriate value for the `environment` parameter.
+Azure PowerShell action is now supported for the Azure public cloud as well as Azure government clouds (`AzureUSGovernment` or `AzureChinaCloud`) and Azure Stack (`AzureStack`) Hub. Before running Azure PowerShell scripts, login to the respective Azure Cloud  using [Azure Login action](https://github.com/step-security/azure-login) by setting appropriate value for the `environment` parameter.
 
 Additionally the action supports two optional parameters:
 
