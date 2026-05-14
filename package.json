@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/step-security/powershell#readme",
   "dependencies": {
-    "@actions/core": "1.9.1",
+    "@actions/core": "3.0.1",
     "@actions/exec": "^1.0.3",
     "@actions/io": "^1.0.2",
     "@actions/tool-cache": "^1.6.1",
