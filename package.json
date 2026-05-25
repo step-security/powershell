@@ -22,7 +22,7 @@
     "@actions/core": "1.9.1",
     "@actions/exec": "^1.0.3",
     "@actions/io": "^1.0.2",
-    "@actions/tool-cache": "^1.6.1",
+    "@actions/tool-cache": "^4.0.0",
     "axios": "1.15.2",
     "uuid": "^7.0.2"
   },
